@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:5173/birds/",
+  "headed": true,
+  "measurements": [
+    {
+      "deviceScaleFactor": 1,
+      "fps": 239.99999999999997,
+      "medianFrameMs": 4.199999999999818,
+      "p95FrameMs": 4.300000000000182,
+      "displayedFps": "240 FPS",
+      "count": "330 只飞鸟",
+      "width": 1211.21435546875,
+      "height": 2640,
+      "canvasCount": 4,
+      "pixelRatio": 0.9998230243327433
+    },
+    {
+      "deviceScaleFactor": 2,
+      "fps": 239.99200026665778,
+      "medianFrameMs": 4.199999999999818,
+      "p95FrameMs": 4.300000000000182,
+      "displayedFps": "240 FPS",
+      "count": "330 只飞鸟",
+      "width": 1211.21435546875,
+      "height": 2640,
+      "canvasCount": 4,
+      "pixelRatio": 1.2491595671473499
+    }
+  ]
+}
