@@ -45,6 +45,8 @@ npm run check:browser
 
 检查桌面与手机尺寸、四块画布的连续绘制、黑白像素、滑杆、暂停重置、跨画布危险圈、触屏拖动和滚动、减少动态效果，以及摄像头请求和页面错误。结果写入 `artifacts/`。
 
+2026-10-13：本仓库 12 项单元测试、生产构建、独立生产预览与公网版本的 10 项浏览器检查均通过。[公网检查明细](docs/browser-checks.json)记录摄像头调用、外部依赖请求和页面错误均为 0；[部署工作流](https://github.com/zyjyzjzyj60/bird-flock-study/actions/runs/38391378093)成功。
+
 2026-10-13 在 Windows、Chrome、240 Hz 屏幕上，以 1360 × 980 窗口测试：初版 110 只鸟、660 像素高画布约 240 FPS；新版 330 只鸟、2640 像素高画布仍约 240 FPS。DPR 1 和 2 均测量 6 秒；DPR 2 时新版自动调整实际绘制密度。原始数据见 [修改前](docs/performance-before.json)和[修改后](docs/performance-after.json)。帧率随设备、浏览器和页面负载变化。手机交互来自 Chrome 触屏模拟，尚未在实体手机实测。
 
 ## 部署与代码

@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "url": "https://zyjyzjzyj60.github.io/bird-flock-study/",
+  "checks": [
+    {
+      "name": "桌面自动群飞：330 只鸟、四倍高度、实时 FPS",
+      "status": "passed"
+    },
+    {
+      "name": "画布为纯黑背景和白色飞鸟",
+      "status": "passed"
+    },
+    {
+      "name": "滚动经过四块连续画布，每个区域都持续更新",
+      "status": "passed"
+    },
+    {
+      "name": "鼠标跨画布接缝时危险圈坐标正确，离开后消失",
+      "status": "passed"
+    },
+    {
+      "name": "三项滑杆、暂停、重置和继续播放有效",
+      "status": "passed"
+    },
+    {
+      "name": "手机 210 只鸟、四倍长画布且无横向溢出",
+      "status": "passed"
+    },
+    {
+      "name": "触屏拖动下方画布的危险圈，松手和取消都会清除",
+      "status": "passed"
+    },
+    {
+      "name": "手机从画布两侧留白滑动能浏览长页面",
+      "status": "passed"
+    },
+    {
+      "name": "减少动态效果初始暂停，可手动播放并响应系统偏好变化",
+      "status": "passed"
+    },
+    {
+      "name": "无摄像头请求、外部依赖请求和控制台错误",
+      "status": "passed"
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "cameraCalls": 0
+}

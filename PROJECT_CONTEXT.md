@@ -12,4 +12,8 @@
 - 原项目开发和生产页面的 11 项浏览器检查通过，涵盖原首页及全部鸟群交互；独立版生产页面的 10 项浏览器检查也已通过。
 - 240 Hz 屏幕实测新版约 240 FPS，测量条件和数据见 README 与 `docs/`。
 - 本仓库 12 项单元测试、生产构建及 10 项浏览器检查已通过。
-- 下一步：推送公开仓库、启用 Pages，并检查公网页面。
+- 公开仓库已创建并推送至 `main`，API 确认可见性为 PUBLIC。
+- GitHub Actions 测试、构建、部署成功：https://github.com/zyjyzjzyj60/bird-flock-study/actions/runs/38391378093 。
+- 公网入口 https://zyjyzjzyj60.github.io/bird-flock-study/ 返回 HTTP 200，HTTPS 已启用；公网版本 10 项浏览器检查全部通过，摄像头调用、外部依赖请求和页面错误均为 0。
+- 线上检查明细已保存到 `docs/browser-checks.json`。手机结果为 Chrome 触屏模拟，实体手机尚未实测。
+- 后续修改可推送 `main` 自动部署；当前请求已完成。
